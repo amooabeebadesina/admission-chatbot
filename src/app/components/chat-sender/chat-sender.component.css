@@ -1,0 +1,16 @@
+.message-box {
+  position: fixed;
+  bottom: 0;
+  background: #ffffff !important;
+}
+
+.message-box input {
+  border-radius: 0px !important;
+  border-right: 2px solid gray;
+  padding-left: 20px !important;
+}
+
+.message-box .btn {
+  color: #ffffff !important;
+  border-radius: 0px !important;
+}

@@ -1,0 +1,11 @@
+<div class="row message-box">
+  <input class="col-md-11"
+         [(ngModel)]="form_value"
+         placeholder="Type your message here"
+         (keyup.enter)="sendMessage()"
+         type="text" />
+
+  <button (click)="sendMessage()"
+          class="btn btn-primary col-md-1"
+          [disabled]="form_value.length === 0"><i class="fa fa-paper-plane"></i></button>
+</div>
